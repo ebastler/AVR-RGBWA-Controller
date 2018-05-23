@@ -26,11 +26,8 @@ The controller must be fed with a voltage between 8 V and 30V DC, I would recomm
 It is controlled with a single rotary encoder and it's push button. A short click on the encoder cycles between the three available lighting modes.
 
 Modes:
-*powerup*
-1. White: Rotating the encoder changes the balance between warm white and cold white (startup value being both at full power). It is possible to scroll "endlessly" - the colors will loop and no hard transistion is visible.
-*short click*
-2. RGB Manual: Rotating the encoder cycles through the RGB spectrum with a simple algorithm that never uses more than 2 colors at the same time. It is possible to scroll "endlessly" - the colors will loop and no hard transistion is visible.
-*short click*
+1. White: Rotating the encoder changes the balance between warm white and cold white (startup value being both at full power). It is possible to scroll "endlessly" - the colors will loop and no hard transition is visible.
+2. RGB Manual: Rotating the encoder cycles through the RGB spectrum with a simple algorithm that never uses more than 2 colors at the same time. It is possible to scroll "endlessly" - the colors will loop and no hard transition is visible.
 3. RGB Automatic: The controller automatically cycles through the RGB spectrum and behaves as if the user was constantly rotating the encoder. Operating the encoder in this mode changes the speed with which the colors fade (clockwise -> faster).
 A short click in the third mode leads back to the first.
 
